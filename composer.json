@@ -1,0 +1,27 @@
+{
+    "name": "mobilozophy/vapor-cli-secrets-mass-update",
+    "description": "Adds a command to update secrets in Vapor environment",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Mobilozophy\\VaporSecretsMassUpdate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jeff Wray",
+            "email": "jwray@mobilozophy.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/vapor-cli": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mobilozophy\\VaporSecretsMassUpdate\\VaporSecretsMassUpdateServiceProvider"
+            ]
+        }
+    }
+}
