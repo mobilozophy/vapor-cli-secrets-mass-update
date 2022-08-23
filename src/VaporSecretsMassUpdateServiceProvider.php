@@ -3,7 +3,7 @@
 namespace Mobilozophy\VaporSecretsMassUpdate;
 
 use Illuminate\Support\ServiceProvider;
-use Mobilozophy\Wifi\VaporSecretsMassUpdate\SecretUpdateCommand;
+use Mobilozophy\VaporSecretsMassUpdate\SecretUpdateCommand;
 
 class VaporSecretsMassUpdateServiceProvider extends ServiceProvider
 {
