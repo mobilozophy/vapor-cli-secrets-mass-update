@@ -3,7 +3,7 @@
 namespace Mobilozophy\VaporSecretsMassUpdate;
 
 use Illuminate\Support\ServiceProvider;
-use Mobilozophy\VaporSecretsMassUpdate\SecretUpdateCommand;
+use Mobilozophy\VaporSecretsMassUpdate\Console\SecretUpdateCommand;
 
 class VaporSecretsMassUpdateServiceProvider extends ServiceProvider
 {
